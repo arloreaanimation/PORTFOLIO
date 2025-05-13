@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sour-gummy-<uniquifier> {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+.cherry-bomb-one-regular {
+    font-family: "Cherry Bomb One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+body{
+    font-family: "Sour Gummy", sans-serif;
+    text-align: center;
+    background-color: #e9cbcb;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.wrapper img{
+    border-radius: 50px;
+    width: 500px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+.text-box {
+    color:#2b1818;
+}
+.text-box h1 {
+    font-size: 100px;
+}
+.text-box p{
+    font-size: 35px;
+}
+.text-box a {
+    font-weight: 50px;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-color: #523b3b;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 150px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 60px;
+    font-family: "Sour Gummy", sans-serif;
+    color: #de6781;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+nav{
+    float: none;
+    line-height: 150px;
+}
+nav a{
+    text-decoration: none;
+    font-family: "Sour Gummy", sans-serif;
+    letter-spacing: 0px;
+    font-size: 22px;
+    color: #de6781;
+    padding: 0 25px;
+    margin: 0 1px;
+}
+nav a:hover{
+    color: #f0d596;
+    font-weight: bold;
+}
+nav a::after{
+    color: #2b1818;
+}
+.banner_area{
+    background-color: #e9cbcb;
+    background-image: url(photos/collage_t.png);
+    position: relative;
+    background-size: 50%;
+    background-position: center center; 
+    border-radius: 50px;
+}
+
+.banner_area:after{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.banner_area h2{
+    padding-top: 4%;
+    font-size: 70px;
+    color: #2b1818;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: bold;
+}
+.banner_area h1{
+    padding-top: 8%;
+    font-size: 175px;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: bolder;
+    color: #2b1818;
+    position: relative;
+
+}
+.banner_area h3{
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: normal;
+    font-size: 60px;
+
+
+}
+.banner_area p{
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 40px;
+    color: #2b1818;
+    font-weight: normal;
+  
+
+}
+.contents h1{
+    padding-top: 200px;
+    font-size: 125px;
+    color: #523b3b;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: bolder;
+}
+.contents h2{
+    padding-top: 25px;
+    font-size: 75px;
+    color: #523b3b;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: bold;
+}
+.contents h3{
+    padding-top: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2b1818;
+}
+.contents h4{
+    padding-top: 25px;
+    font-size: 40px;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+.contents h5{
+    position: relative;
+}
+.contents a{
+    text-decoration-line: underline;
+    font-family: "Sour Gummy", sans-serif;
+    letter-spacing: 0px;
+    font-size: 25px;
+    color: #523b3b;
+    padding-top: 50px;
+}
+.contents p{
+    font-size: 25px;
+}
+.contents img{
+    border-radius: 10px;
+    width: 500px;
+}
+
+.initial_storyboard img{
+    border-radius: 5px;
+    width: 25px;
+}
+.bottom {
+    width: 100%;
+    height: 50px;
+    background-color: #523b3b;
+    position: fixed;
+    bottom: 0;
+}
+.bottom a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Sour Gummy", sans-serif;
+    color: #de6781;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.bottom a:hover{
+    color: #f0d596;
+    font-weight: bold;
+}
+.info{
+    width: 100%;
+    line-height: 50px;
+}
+.info p{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Sour Gummy", sans-serif;
+    color: #de6781;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.info a {
+    text-decoration: none;
+    font-family: "Sour Gummy", sans-serif;
+    letter-spacing: 0px;
+    font-size: 22px;
+    color: #de6781;
+    padding: 0 25px;
+    margin: 0 1px;
+}
+.text-box a {
+    text-decoration: none;
+    font-family: "Sour Gummy", sans-serif;
+    letter-spacing: 0px;
+    font-size: 100px;
+    color: #de6781;
+    padding: 0 25px;
+    margin: 0 1px;
+}
+.image {
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image1 img{
+    margin-top: 200px;
+    border-radius: 10px;
+    width: 500px;
+}
+.image1 img:hover {
+    opacity: 50%;
+    transition: .5s ease;
+
+}
+.overlay1 {
+    position: absolute;
+    opacity: 0;
+}
+.image1 img:hover .overlay1{
+    opacity: 1;
+}
+.container1 {
+    position: relative;
+    width: 500px;
+    margin-left: 50px;
+    border-radius: 50px;
+    display: inline-block;
+  }
+  
+  .image1 {
+    display: block;
+    width: 500px;
+    border-radius: 50px;
+    transition: .5s ease;
+  }
+  
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+  }
+  .container1:hover .overlay1 {
+    opacity: 1;
+  }
+  .container1:hover .image1 {
+    opacity: 50%;
+  }
+  
+  .text1 {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+  .image2 img{
+    margin-top: 200px;
+    border-radius: 10px;
+    width: 500px;
+}
+.image2 img:hover {
+    opacity: 50%;
+    transition: .5s ease;
+
+}
+.overlay2 {
+    position: absolute;
+    opacity: 0;
+}
+.image2 img:hover .overlay2{
+    opacity: 1;
+}
+.container2 {
+    position: relative;
+    width: 500px;
+    float: none;
+    border-radius: 50px;
+    display: inline-block;
+  }
+  
+  .image2 {
+    display: block;
+    height: 500px;
+    border-radius: 50px;
+    transition: .5s ease;
+  }
+  
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+  }
+  .container2:hover .overlay2 {
+    opacity: 1;
+  }
+  .container2:hover .image2 {
+    opacity: 50%;
+  }
+  
+  .text2 {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+
+.image3 img{
+    margin-top: 200px;
+    border-radius: 10px;
+    width: 500px;
+}
+.image3 img:hover {
+    opacity: 50%;
+    transition: .5s ease;
+
+}
+.overlay3 {
+    position: absolute;
+    opacity: 0;
+}
+.image3 img:hover .overlay3{
+    opacity: 1;
+}
+.container3 {
+    position: relative;
+    width: 500px;
+    float: none;
+    border-radius: 50px;
+    display: inline-block;
+  }
+  
+  .image3 {
+    display: block;
+    height: 500px;
+    border-radius: 50px;
+    transition: .5s ease;
+  }
+  
+  .overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+  }
+  .container3:hover .overlay3 {
+    opacity: 1;
+  }
+  .container3:hover .image3 {
+    opacity: 50%;
+  }
+  
+  .text3 {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
