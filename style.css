@@ -22,8 +22,11 @@ body{
     background-color: #332929;
 }
 .wrapper{
+    margin-top: 100px;
+    margin-bottom: 100px;
     width: 90%;
     margin: 0 auto;
+    position: relative;
 }
 .wrapper img{
     border-radius: 50px;
@@ -32,7 +35,6 @@ body{
     margin-top: 100px;
     margin-left: 100px;
     margin-right: 20px;
-    height: 100px;
 }
 .text-box {
     color:#f3e9d3;
@@ -91,9 +93,10 @@ nav a::after{
     background-color: #e9e2cb;
     background-image: url(photos/collage_t.png);
     position: relative;
-    background-size: 50%;
+    background-size: 60%;
     background-position: center center; 
     border-radius: 50px;
+    height: 600px;
 }
 
 .banner_area:after{
@@ -177,8 +180,9 @@ nav a::after{
     font-size: 25px;
 }
 .contents img{
+    margin-top: 150px;
     border-radius: 10px;
-    width: 500px;
+    width: 400px;
 }
 
 .initial_storyboard img{
@@ -453,3 +457,62 @@ nav a::after{
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .cannibal h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #f3e8c5;
+  }
+.cannibal img{
+    border-radius: 50px;
+    width: 500px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+.cannibal-text {
+    color:#f3e9d3;
+}
+.cannibal-text h1 {
+    font-size: 100px;
+}
+.cannibal-text p{
+    font-size: 35px;
+}
+.cannibal-text a {
+    font-weight: 50px;
+}
+.text-box img {
+    border-radius: 10px;
+    width: 400px; 
+    display: inline-block;
+}
+
