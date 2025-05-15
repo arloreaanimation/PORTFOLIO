@@ -22,7 +22,7 @@ body{
     background-color: #332929;
 }
 .wrapper{
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
 }
 .wrapper img{
@@ -32,6 +32,7 @@ body{
     margin-top: 100px;
     margin-left: 100px;
     margin-right: 20px;
+    height: 100px;
 }
 .text-box {
     color:#f3e9d3;
