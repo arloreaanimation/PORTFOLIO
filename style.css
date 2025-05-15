@@ -180,9 +180,8 @@ nav a::after{
     font-size: 25px;
 }
 .contents img{
-    margin-top: 150px;
-    border-radius: 10px;
-    width: 400px;
+    border-radius: 5px;
+    width: 625px;
 }
 
 .initial_storyboard img{
